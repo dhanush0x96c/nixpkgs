@@ -254,6 +254,8 @@ self: super: with self; {
 
   aiobotocore = callPackage ../development/python-modules/aiobotocore { };
 
+  aiobotocore_3_7 = callPackage ../development/python-modules/aiobotocore/3_7.nix { };
+
   aiobroadlink = callPackage ../development/python-modules/aiobroadlink { };
 
   aiobtclientapi = callPackage ../development/python-modules/aiobtclientapi { };
